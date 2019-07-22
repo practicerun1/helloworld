@@ -1,0 +1,46 @@
+h1 {
+    color:yellowgreen;
+}
+h2 {
+    color:darkslategray;
+}
+
+h4{
+    color: gray;
+}
+
+.common-header-style {
+    font-family: 'Courier New', Courier, monospace;
+}
+ul#main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul#main-nav li {
+    float: left;
+}
+
+ul#main-nav li a {
+    display: block;
+    color: white;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul#main-nav li a:hover {
+    background-color: #111;
+}
+div[title] {
+    border: 1px solid black;
+    margin: 10 px 0px;
+    padding: 5px;
+}
+
+div[title="website-info"] {
+    background-color: beige;
+}
