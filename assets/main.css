@@ -44,3 +44,47 @@ div[title] {
 div[title="website-info"] {
     background-color: beige;
 }
+
+ol.deploy-times li {
+    border: 1px dashed red;
+}
+
+ol.deploy-times > li {
+    border: 1px solid blue; 
+}
+
+ol.deploy-times li {
+    border: 1 px dashed red;
+}
+
+h1 + p {
+    background-color: aqua;
+}
+
+h2 ~ p {
+    background-color: bisque;
+}
+
+div[title="getting-started"] ul li:first-child {
+    background-color: black;
+}
+
+div[title="getting-started"] ul li:last-child {
+    background-color: red;
+}
+/* *:not(p) {
+background-color: black;
+}*/
+
+p.pre-text::before {
+    content: "IMPORTANT >";
+    color: red;
+}
+p.post-text::after {
+    content: "< Borning";
+    color: brown;
+}
+p::selection {
+    color: green;
+    background-color: red;
+}
